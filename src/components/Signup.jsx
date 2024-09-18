@@ -25,7 +25,7 @@ const Signup = () => {
       toast.success('User signed up successfully!');
       setLogin(true); // Switch to login view after successful signup
     } catch (error) {
-      toast.error('Error during form submission');
+      toast.error('Error during form submissions');
       console.error('Error during form submission:', error);
     }
   };
