@@ -1,0 +1,109 @@
+/* General header styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between; /* Ensure spacing between brand and links */
+}
+
+/* Align navigation to the right */
+.nav-links {
+  display: flex;
+  gap: 15px;
+  margin-left: auto; /* Push the navigation links to the right */
+}
+
+/* Navigation links styling */
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+/* Image styling */
+.center-image {
+  border-radius: 55%;
+  height: 5em;
+  width: 5.2em;
+}
+.center-image {
+  border-radius: 55%;
+  height: 5em;
+  width: 5.2em;
+}
+
+/* Hamburger Menu */
+.hamburger {
+  display: none; /* Hide by default, only show on mobile screens */
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+}
+.brand{
+  /* color: red !important; */
+
+}
+.brand-text{
+  /* color: red !important; */
+  color: orange;
+  text-decoration: none;
+  font-weight: 700 ;
+  font-size: 20px !important;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .open {
+    display: flex !important; /* Show the nav links when the hamburger is clicked */
+  }
+
+  .brand-text {
+    font-size: 22px;
+    margin-left: 0;
+    text-align: center;
+ 
+  }
+
+  .nav-link {
+    font-size: 1rem;
+    color: white;
+  }
+
+  .center-image {
+    height: 4em;
+    width: 4.2em;
+    margin-bottom: 10px;
+  }
+}

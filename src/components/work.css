@@ -1,0 +1,17 @@
+.book-img {
+    /* height: 100px !important;  */
+    /* object-fit: cover; */
+  }
+
+  .buy{
+    background-color: darkorange !important;
+  }
+  .buy:hover{
+    background-color: #007bff !important;
+  }
+  .all{
+    font-weight: 700;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+  }

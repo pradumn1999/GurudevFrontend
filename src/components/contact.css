@@ -1,0 +1,18 @@
+.contact{
+    /* background-color: #80AF81; */
+    /* background-color: #F94A29; */
+    /* background-color: #FFB200; */
+    background: url("../../public/asets/bg-bhakti.jpg");
+    /* background-repeat: no-repeat; */
+    border-radius: 1em;
+    /* color: #fff; */
+    /* color: red; */
+    /* color: #fff; */
+    /* color: orangered; */
+    /* color: #000080; */
+    color: #FF6500;
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 29px;
+}

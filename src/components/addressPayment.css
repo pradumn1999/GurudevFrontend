@@ -1,0 +1,90 @@
+/* addressPayment.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .address-section, .books-section, .payment-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .address-section h3, .books-section h3, .payment-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .address-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .books-section {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .book-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .book-item input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  .payment-section p {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .payment-section {
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    .book-item {
+      flex-direction: column;
+    }
+    
+    .book-item input {
+      margin-bottom: 5px;
+    }
+  }
+  

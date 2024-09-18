@@ -1,0 +1,21 @@
+.App{
+    /* background-color: #C5FFF8; */
+    /* background-color: #FFB200; */
+    background-color: #FFDE4D;
+    border-radius: 1em;
+    /* color: #001C30; */
+    color: red;
+}
+.ji{
+    /* color: #001C30; */
+    color: red;
+    font-weight: 800;
+    font-size: 28px;
+    text-decoration: black underline;
+}
+.he{
+    /* color: #001C30; */
+    color: red;
+    font-weight: 500;
+    /* font-size: 14px; */
+}

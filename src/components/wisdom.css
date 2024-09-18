@@ -1,0 +1,104 @@
+/* src/App.css */
+
+/* Body and Container */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #800000; /* Maroon color for header */
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    margin-right: 15px;
+  }
+  
+  .nav-link:hover {
+    color: #f0a500 !important; /* Golden color on hover */
+  }
+  
+  /* Event List */
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 16px;
+  }
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  /* Button */
+  .btn-primary {
+    background-color: #800000; /* Maroon color */
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #600000; /* Darker maroon */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #800000; /* Maroon color for footer */
+    color: white;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  .carousel-img {
+    height: 40px !important; 
+    /* object-fit: cover;  */
+  }
+
+  .carousel-img-large {
+    /* margin-top: 9em; */
+    height: 100vh; 
+    object-fit: cover; 
+  }
+  .up{
+    font-weight: 700;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+  }
+  
