@@ -25,7 +25,7 @@ const Signup = () => {
       toast.success('User signed up successfully!');
       setLogin(true); // Switch to login view after successful signup
     } catch (error) {
-      toast.error(error.response?.data?.message || 'Error during form submission');
+      toast.error('Error during form submissions');
       console.error('Error during form submission:', error);
     }
   };
@@ -36,7 +36,7 @@ const Signup = () => {
       toast.success('User logged in successfully!');
       navigate('/address-payment'); // Redirect to AddressPaymentPage after login
     } catch (error) {
-      toast.error(error.response?.data?.message || 'Error during form submission');
+      toast.error('Error during form submission');
       console.error('Error during form submission:', error);
     }
   };
