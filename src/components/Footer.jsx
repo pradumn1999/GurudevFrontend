@@ -119,7 +119,7 @@ const Footer = () => {
     </ul>
 
                 <div className="footer-note">
-                     Copyright © 2024 Paramhans Swami Aagmanand Ji Maharaj. (Developer Contact :-  9262689110)
+                     Copyright © 2024 Paramhans Swami Aagmanand Ji Maharaj. (Developer Contact :-  6299502265)
                 </div>
             </div>
         </footer>
