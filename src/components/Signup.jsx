@@ -37,7 +37,7 @@ const Signup = () => {
       navigate('/address-payment'); // Redirect to AddressPaymentPage after login
     } catch (error) {
       toast.error('Error during form submission');
-      console.error('Error during form submission:', error);
+      console.error('Error during form submission:',error);
     }
   };
 
