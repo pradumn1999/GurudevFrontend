@@ -6,6 +6,7 @@ import './signup.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+
 const Signup = () => {
   const navigate = useNavigate(); 
   const [isLogin, setLogin] = useState(true);
