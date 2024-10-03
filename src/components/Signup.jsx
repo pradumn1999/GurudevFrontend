@@ -22,7 +22,7 @@ const Signup = () => {
     }
 
     try {
-      await axios.post(`${process.env.REACT_APP_BASE_URL}api/auth/signup`, { name, email, password });
+      await axios.post('https://gurudev-backend-giif.vercel.app//api/auth/signup', { name, email, password });
       toast.success('User signed up successfully!');
       setLogin(true); // Switch to login view after successful signup
     } catch (error) {
