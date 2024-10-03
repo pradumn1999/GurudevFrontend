@@ -11,7 +11,7 @@ function Header() {
   };
 
   return (
-    <header className="navbar d-flex justify-content-between">
+    <header className="navbar d-flex justify-content-between back">
       <div className="navbar-container">
         <img src={Images.Image1} alt="Centered Image" className="center-image" />
         <div className="brand px-4">

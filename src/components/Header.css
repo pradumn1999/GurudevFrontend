@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #333;
+  background-color: #5e32e4;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -33,7 +33,7 @@
 }
 
 .nav-link:hover {
-  color: red;
+  color: rgb(160, 40, 40);
 }
 
 /* Image styling */
