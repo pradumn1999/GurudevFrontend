@@ -30,7 +30,7 @@ const Signup = () => {
     }
   };
 
-  const handleLogin = async () => {
+  const handleLogin = async () => { 
     try {
       await axios.post(`${process.env.REACT_APP_BASE_URL}api/auth/login`, { email, password });
       toast.success('User logged in successfully!');
